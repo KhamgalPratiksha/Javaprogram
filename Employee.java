@@ -23,8 +23,6 @@ public class Employee {
 	esalary = sc.nextInt();
 	System.out.println("Enter edept");
 	edept = sc.next();
-	System.out.println("Enter eyearsalary");
-	eyearsalary = sc.nextInt();
 	
 	//Display
 	
@@ -32,7 +30,8 @@ public class Employee {
 	System.out.println("Enter the Age:"+eage);
 	System.out.println("Enter the Salary:"+esalary);
 	System.out.println("Enter the Dept:"+edept);
-	System.out.println("Enter the Yearsalary:"+eyearsalary);
+	eyearsalary = esalary*12;
+	System.out.println("Calculated one year salary of the employee:"+eyearsalary);
 	
 	
 
